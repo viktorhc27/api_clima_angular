@@ -5,7 +5,8 @@
     "build:styles": "postcss src/styles.css -o src/styles.css",
     "watch:styles": "postcss src/styles.css -o src/styles.css --watch",
     "build": "ng build && npm run build:styles",
-    "start": "ng serve && npm run watch:styles"
+    "start": "ng serve && npm run watch:styles",
+    "postcss": "postcss"
   },
   "private": true,
   "dependencies": {
