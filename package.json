@@ -2,11 +2,11 @@
   "name": "api-clima",
   "version": "0.0.0",
   "scripts": {
-    "build:styles": "postcss src/styles.css -o src/styles.css",
-    "watch:styles": "postcss src/styles.css -o src/styles.css --watch",
-    "build": "ng build && npm run build:styles",
-    "start": "ng serve && npm run watch:styles",
-    "postcss": "postcss"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
