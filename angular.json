@@ -25,7 +25,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/cesium/Build/Cesium/Widgets/widgets.css",
               "src/styles.css"
             ],
             "scripts": [
